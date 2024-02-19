@@ -1,0 +1,870 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ........................header-section code started here ..................*/
+.header-section{
+    width: 100%;
+    margin-top: 15px;
+}
+.header-section .logo img{
+    width: 100px;
+    height: 50px;
+ }
+.header-section .navbar .nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+    margin-left: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    transition: .5s;
+}
+.header-section .navbar .nav ul li:hover{
+    color: #ab162c;
+    transition: .3s;
+}
+.extra{
+    display: flex;
+    justify-content: space-between;
+}
+.search-bar{
+    margin-top: 4px;
+}
+.search-bar a i{
+    color: black;
+    font-size: 16px;
+    border: 1px solid gray;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50px;
+    transition:.5s;
+}
+.search-bar a i:hover{
+    color: #ab162c;
+    border: 1px solid #ab162c;
+    margin-top: -50px;
+    transition:.5s;
+}
+.basket{
+    margin-top: 4px;
+    margin-left: 15px;
+}
+.basket a i{
+    color: black;
+    font-size: 16px;
+    border: 1px solid gray;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50px;
+    transition:.5s;
+}
+.basket a i:hover{
+    color: #ab162c;
+    border: 1px solid #ab162c;
+    margin-top: -50px;
+    transition:.5s;
+}
+.header-section .h-btn{
+    margin-top: 8px;
+}
+.header-section .extra .h-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    margin-left: 40px;
+    background-color: #f2a22a;
+    border: 1px solid #f2a22a;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    transition: 0.8s;
+}
+.header-section .extra .h-btn a:hover{
+   background-color: white;
+   border: 1px solid #ab162c;
+   color: #ab162c;
+   transition: 0.8s;
+  }
+/* ........................header-section code end here ..................*/
+
+
+
+
+/* ........................banner-section code started here ..................*/
+.banner-section{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #000;
+}
+.banner-section h5{
+    font-size: 24px;
+    font-weight: 700;
+    color: #f2a22a;
+    text-transform: capitalize;
+}
+.banner-section .line{
+    width: 10%;
+    height: 3px;
+    background-color: #f2a22a;
+    margin-top: 20px;
+}
+.banner-section h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 20px;
+    line-height: 70px;
+}
+.banner-section p{
+    font-size: 16px;
+    color: grey;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+.banner-section img{
+   width: 100%;
+   height: auto;
+}
+/* ........................banner-section code end here ..................*/
+
+
+
+/* ........................catagory-section code started here ..................*/
+.catagory-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.catagory-section .piccc{
+    text-align: center;
+}
+.catagory-section .piccc img{
+    width: 100px;
+    height: 100px;
+}
+.catagory-section .cm {
+    display: flex;
+    justify-content: space-between;
+}
+.catagory-section .cm .pm img{
+    width: 260px;
+    height: 150px; 
+    margin-top: 30px;
+    border-radius: 8PX;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.catagory-section .cm .pm img:hover{
+    transition: 0.5s;
+    transform: scale(1.5);
+ }
+.catagory-section .cm .pm p{
+    border: 1px solid #ab162c;
+    margin: 0px 80px 0px 80px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ab162c;
+    margin-top: 10px;
+}
+.catagory-section .cm .pm p:hover{
+    border: 1px solid #f2a22a;
+    color: #f2a22a;
+}
+.catagory-section h2{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+/* ........................catagory-section code end here ..................*/
+
+
+
+
+/* ........................burger-section code started here ..................*/
+.burger-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.barger{
+    text-align: center;
+}
+.barger span{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:#f2a22a;
+}
+.barger h2{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+}
+.dish-menu{
+    margin-top: 40px;
+}
+.burger-section .left img{
+    width: 100%;
+    height: 40vh;
+}
+.burger-section .left p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    margin-top: -180px;
+    margin-left: 80px;
+}
+.burger-section .left .b-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #f2a22a;
+    border: 1px solid #f2a22a;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-top: -180px;
+    margin-left: 80px;
+    transition: 0.8s;
+}
+.burger-section .left .b-btn a:hover{
+    background-color: white;
+    border: 1px solid #ab162c;
+    color: #ab162c;
+    transition: 0.8s;
+}
+.burger-section .right img{
+    width: 100%;
+    height: 40vh; 
+}
+.burger-section .right p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    margin-top: -180px;
+    margin-left: 40px;
+}
+.burger-section .right .b-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #f2a22a;
+    border: 1px solid #f2a22a;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-top: -180px;
+    margin-left: 40px;
+    transition: 0.8s;
+}
+.burger-section .right .b-btn a:hover{
+    background-color: white;
+    border: 1px solid #ab162c;
+    color: #ab162c;
+    transition: 0.8s;
+}
+/* ........................burger-section code end here ..................*/
+
+
+
+
+/* ........................menu-section code started here ..................*/
+.menu-section{
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+}
+.menu-pera h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+.menu-bar{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+.menu-section ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 30px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase; 
+    font-size: 14px;
+    font-weight: 600;
+    color: #f2a22a;
+    border-bottom: 1px solid rgb(158, 157, 160);
+    border-top: 1px solid rgb(158, 157, 160);
+    transition: 0.5s;
+}
+.menu-section ul li:hover{
+    transition: 0.5s;
+    color: var(--colorBlack);
+    transform: scale(1.5);
+}
+/* ........................menu-section code end here ..................*/
+
+
+
+
+/* ........................card-section code started here ..................*/
+.card-section{
+    width: 100%;
+    padding: 0px 0px 80px 0px;
+}
+.card-inner{
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px 0px rgba(8, 5, 33, 0.10);
+}
+.card-section img{
+    width: 260px;
+    height: 180px;
+    border-radius: 10px 10px 0px 0px;
+}
+.card-section .btn{
+   margin-top: -25px;
+   margin-left: 125px;
+}
+.card-section .btn a{
+    text-decoration: none;
+    border: 1px solid #c93131;
+    padding: 3px 8px;
+    background-color: #c93131;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.card-section .star{
+    margin-left: -15px;
+}
+.card-section .star ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    color: #f2a22a;
+}
+.card-section h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 700;
+    margin-left: 18px;
+    transition: .8s;
+}
+.card-section h5:hover{
+    color:  #c93131;
+    transition: .8s;
+}
+.card-section p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-left: 18px;
+}
+.card-section .kala{
+    display: flex;
+}
+.card-section .kala .c-btn{
+    margin-left: 18px;
+} 
+.card-section .kala .c-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    color: dimgray;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid darkgray;
+    padding: 7px 12px;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+.card-section .kala .c-btn a:hover{
+    color: white;
+    background-color: #c93131;
+    border: 1px solid #c93131;
+    transition: 0.8s;
+}
+.card-section .kala p{
+    font-size: 24px;
+    font-weight: 700;
+    color: #c93131;
+    margin-top: -7px;
+}
+.n-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+.n-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid #f2a22a;
+    background: #f2a22a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.n-btn a:hover{
+    color: #c93131;
+    border: 1px solid #c93131;
+    background: #ffff;
+    transition: .5s;
+}
+/* ........................card-section code end here ..................*/
+
+
+
+
+/* ........................offer-section code started here ..................*/
+.offer-section{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../img/add_banner_full_bg.jpgdddd.jpg);
+    background-size: cover;
+}
+.offer-type h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #f2a22a;
+    margin-top: 120px;
+}
+.offer-type h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+}
+.of-btn{
+    margin-top: 50px;
+}
+.of-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background: #f2a22a;
+    border: 1px solid #f2a22a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: .8s;
+}
+.of-btn a:hover{
+    background-color: #fff;
+    border: 1px solid #c93131;
+    color: #c93131;
+    transition: .8s;
+}
+/* ........................offer-section code end here ..................*/
+
+
+
+
+/* ........................order-section code started here ..................*/
+.order-setion{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #e4dcd6;
+}
+.order-type h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 60px;
+}
+.order-type p{
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    line-height: 24px;
+}
+.order-btn{
+    display: flex;
+    margin-top: 80px;
+}
+.order-btn .o-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background: #f2a22a;
+    border: 1px solid #f2a22a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: .8s;
+}
+.order-btn .o-btn a:hover{
+    color: #c93131;
+    background: white;
+    border: 1px solid #c93131;
+    transition: .8s;
+}
+.order-btn .d-btn{
+    margin-left: 20px;
+}
+.order-btn .d-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background: #f2a22a;
+    border: 1px solid #f2a22a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: .8s;
+}
+.order-btn .d-btn a:hover{
+    color: #c93131;
+    background: white;
+    border: 1px solid #c93131;
+    transition: .8s;
+}
+.now h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: black;
+    letter-spacing: 1px;
+    opacity: .3;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+/* ........................order-section code end here ..................*/
+
+
+
+
+/* ........................chef-section code started here ..................*/
+.chef-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.chef-section .card {
+    width: 250px;
+    height: 450px;
+    border: none;
+    border-radius: 0px 0px 0px 0px;
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.im-part img {
+    width: 250px;
+    height: 300px;
+    border: transparent;
+    border-radius: 80px 80px 0px 0px;
+}
+.im-part h5{
+    font-size: 14px;
+    text-transform: capitalize;
+    background: #c93131;
+    color: white;
+    padding: 5px 0px;
+    width: 40%;
+    margin-left: 75px;
+    text-align: center;
+}
+.nameee h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    transition: .8s;
+}
+.nameee h2:hover{
+    color: #c93131;
+    transition: .8s;
+}
+.icone ul li{
+    display: inline;
+}
+.icone ul{
+    padding: 0px 0px;
+    text-align: center;
+}
+.icone i{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background: white;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 7px 0px 7px 0px;
+    margin-top: 20px;
+    transition: .8s;
+}
+.icone i:hover{
+    background: #0d6efd;
+    color: white;
+    border: 1px solid #0d6efd;
+    border-radius: 0px 7px 0px 7px;
+    transition: .8s;
+}
+.cf-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+.cf-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid #f2a22a;
+    background: #f2a22a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.cf-btn a:hover{
+    color: #c93131;
+    background: white;
+    border: 1px solid #c93131;
+    transition: .8s;
+}
+.second{
+    margin-top: 30px;
+}
+/* ........................chef-section code end here ..................*/
+
+
+
+/* ........................foodi-section code started here ..................*/
+.foodi-section{
+    width: 100%;
+    height: 80vh;
+    padding: 80px 0px;
+    background-image: url(../img/testimonial_bg.jpg);
+    color: white;
+}
+.foodi-inner h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    color: #f2a22a;
+}
+.foodi-inner p{
+    color: white;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.foodi-inner span{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    line-height: 40px;
+}
+.article-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.article-section .latest h2{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
+.article-inner{
+    margin-top: 40px;
+}
+.picc-part img{
+    width: 355px;
+    height: 390px;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.icoon{
+    display: flex;
+}
+.icoon img{
+    width: 30px;
+    height: 30px;
+}
+.icoon p{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.postt{
+    margin-top: 30px;
+    display: flex;
+}
+.postt span{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 2px; 
+    margin-left: 30px;
+}
+.des h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .8s;
+}
+.des h3:hover{
+    color: #c93131;
+    transition: .8s;
+}
+.next-part{
+    margin-top: 30px;
+}
+.next-part span{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+/* ........................foodi-section code end here ..................*/
+
+
+
+
+/* ........................footer-section code started here ..................*/
+.footer-section{
+    width: 100%;
+    background-color: black;
+    padding: 80px 0px 20px 0px;
+}
+.f-logo img{
+    width: 100px;
+    height: 50px; 
+}
+.t-text p{
+    font-size: 16px;
+    color: grey;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.f-icon ul{
+    margin: 0;
+    padding: 0;
+}
+.f-icon li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+.f-icon li a i{
+    width: 35px;
+    height: 35px;
+    color: grey;
+    text-align: center;
+    line-height: 35px;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 7px 0px 7px 0px;
+    transition: .8s;
+}
+.f-icon li a i:hover{
+    background: #0d6efd;
+    color: white;
+    border: 1px solid #0d6efd;
+    border-radius: 0px 7px 0px 7px;
+    transition: .8s;
+}
+.f-menu h4{
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.f-menu ul li{
+    font-size: 16px;
+    color: grey;
+    text-transform: capitalize;
+    line-height: 50px;
+    transition: .8s;
+}
+.f-menu ul li:hover{
+    color: #f2a22a;
+    transition: .8s;
+}
+.e-menu h4{
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.ee-menu{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.eee-menu{
+    display: flex;
+}
+.f-lex{
+    margin-left: 20px;
+}
+.eeee-menu h5{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: white;
+    transition: .8s;
+}
+.eeee-menu h5:hover{
+    color: #f2a22a;
+    transition: .8s;
+}
+.eee-menu p{
+    margin-left: 15px;
+    color: grey;
+}
+.eee-menu i{
+    margin-top: 4px;
+    color: grey;
+}
+.potoo img{
+    border-radius: 5px;
+}
+.enter-end p{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: grey;
+    text-align: center;
+    margin-top:18px;
+}
+/* ........................footer-section code end here ..................*/
